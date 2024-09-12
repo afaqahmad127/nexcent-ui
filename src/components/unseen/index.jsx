@@ -3,28 +3,32 @@ import { Button } from "../common";
 
 export const Spending = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-36 pt-5 content-center items-center">
-      <div className="flex justify-center">
-        <img src="/images/Frame 35.png" alt="Spending at Pixelgrade" className=" max-w-md" />
-      </div>
-      <div className="flex flex-col gap-5">
-        <div>
-          <h2 className="text-Secondary text-2xl md:text-3xl font-semibold leading-8 md:leading-10 text-left">
-            The unseen of spending three<br className="hidden md:block" /> years at Pixelgrade
+    <section>
+      <div className=" bg-white py-16 container mx-auto flex flex-col items-center justify-center  lg:flex-row">
+        <div className="lg:w-[40%] w-full">
+          <img
+            src="/images/Frame 35.png"
+            alt="Unseen Pixelgrade"
+            className="w-full h-auto"
+          />
+        </div>
+
+        <div className="lg:w-[60%] w-full">
+          <h2 className="text-[36px] font-semibold leading-[44px] text-[#4D4D4D] text-left">
+            The unseen of spending three <br></br>years at Pixelgrade
           </h2>
-          <p className="text-gray-600 text-sm md:text-base font-normal leading-5 text-left">
+          <p className="mt-4 mb-6  text-[14px] font-normal leading-[20px] text-[#717171] text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
-            amet justo ipsum.  <br className="hidden md:block" />Sed accumsan quam vitae est varius
-            fringilla. Pellentesque placerat vestibulum <br className="hidden md:block" /> lorem sed
-            porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet
-            risus <br className="hidden md:block" />pretium auctor. Etiam quis massa pulvinar, aliquam
-            quam vitae, tempus sem. Donec elementum pulvinar odio.
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
           </p>
-        </div>
-        <div>
-          <Button label={"Learn More"} className={" w-36 md:w-40 h-12"} />
+
+          <Button label={"Learn More"} className={"w-40 h-14"} />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

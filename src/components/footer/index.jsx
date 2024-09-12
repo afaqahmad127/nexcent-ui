@@ -1,6 +1,7 @@
 import React from "react";
 
-export const Footer = () => {
+export const 
+Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 bg-black py-9 pb-11 px-6 md:px-12 lg:px-28">
       

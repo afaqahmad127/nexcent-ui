@@ -1,9 +1,9 @@
 import React from "react";
 import { Card } from "../common";
 
-export const Manage = () => {
+export const Manage = ({ servicesRef }) => {
   return (
-    <div className="w-full mt-5">
+    <div ref={servicesRef} className="w-full mt-5">
       <div>
         <h2 className="text-Secondary text-3xl font-semibold leading-[44px] text-center">
           Manage your entire community<br></br> in a single system
