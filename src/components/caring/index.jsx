@@ -2,6 +2,7 @@ import React from "react";
 import { ImageWithCard } from "../common";
 
 export const Caring = () => {
+  
   return (
     <div className="flex flex-col gap-5 py-6">
       <div>

@@ -11,8 +11,8 @@ export const ImageWithCard = ({ imageUrl, paragraphText, cardTitle }) => {
         />
       </div>
 
-      <div className="absolute left-[5%] top-[70%] w-[90%] bg-Silver rounded-[5px] p-4">
-        <h4 className="font-semibold text-sm md:text-sm leading-7 text-center text-Grey px-5 py-3">
+      <div className="absolute left-[5%] top-[70%] w-[90%] bg-Silver rounded-[5px] p-4 mb-24">
+        <h4 className="font-semibold text-sm md:text-sm leading-7 text-center text-Grey px-5 py-3 ">
           {paragraphText}
         </h4>
 
